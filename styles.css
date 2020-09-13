@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+  background-color: #efbbcf;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #fbecec;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 20%;
+}
+
+.game-over {
+
+  background-color: red;
+  opacity: 0.8;
+
+}
+
+.red {
+  /* red = pastel pink */
+  background-image: url("https://www.flaticon.com/svg/static/icons/svg/3352/3352435.svg");
+  background-position: center;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-color: #ffb0b0;
+}
+
+.green {
+  /* green = pastel green */
+  background-image: url("https://www.flaticon.com/svg/static/icons/svg/3352/3352462.svg");
+  background-position: center;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-color: #b6eb7a;
+}
+
+.blue {
+  /* blue =  pastel blue */
+  background-image: url("https://www.flaticon.com/svg/static/icons/svg/3352/3352419.svg");
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-color: #97e5ef;
+}
+
+.yellow {
+  /* yellow = pastel yellow */
+  background-image: url("https://www.flaticon.com/svg/static/icons/svg/3352/3352393.svg");
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-color: #ffd571;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer {
+  text-align: center;
+
+  color: white;
+}
+
+.myName {
+    font-weight: bold;
+
+}
+
+.navbar {
+  text-align: center;
+  width: 100%;
+  overflow: auto;
+}
+
+.navbar a{
+  color: #6f4a8e;
+  padding: 12px;
+  width: 25%;
+  text-align: center;
+
+}
+
+.navbar a:hover{
+  background-color: #d789d7;
+}
